@@ -31,3 +31,27 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Logs ###
+*.log
+*.tmp
+*.lock
+hs_err_pid*
+replay_pid*
+
+### OS Files ###
+.DS_Store
+Thumbs.db
+
+### Environment ###
+.env
+.env.*
+*.env
+
+### Spring Boot Local Config (optional) ###
+application-local.properties
+application-local.yml
+
+### Node/Frontend (if exists inside project) ###
+node_modules/
+dist/
