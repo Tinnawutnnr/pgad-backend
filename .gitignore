@@ -19,6 +19,15 @@ target/
 *.iml
 *.ipr
 
+### Docker ###
+pgdata/
+postgres-data/
+db-data/
+data/
+**/pgdata/
+**/postgres-data/
+
+
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
